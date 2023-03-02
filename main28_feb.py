@@ -1,5 +1,6 @@
 def fun(**args):
     print(*args.values())
+    print(*args)
 
 data={'a':10,'b':20,'c':30}
 
